@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2019/03/25/TCP/</loc>
+    <loc>http://yoursite.com/2019/03/27/Untitled/</loc>
     
-    <lastmod>2019-03-25T08:18:04.294Z</lastmod>
+    <lastmod>2019-03-27T13:03:39.706Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2019/03/16/hello-world/</loc>
     
-    <lastmod>2019-03-23T07:41:37.555Z</lastmod>
+    <lastmod>2019-03-27T07:15:23.646Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/03/25/TCP/</loc>
+    
+    <lastmod>2019-03-25T08:18:04.294Z</lastmod>
     
   </url>
   
@@ -40,13 +47,6 @@
     <loc>http://yoursite.com/2019/03/19/Golang-json-mysql-Data-Transfer/</loc>
     
     <lastmod>2019-03-19T08:42:20.003Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/03/19/Untitled/</loc>
-    
-    <lastmod>2019-03-19T06:26:41.833Z</lastmod>
     
   </url>
   
