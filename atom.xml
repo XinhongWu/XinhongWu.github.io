@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-17T02:12:54.575Z</updated>
+  <updated>2019-06-30T10:29:19.520Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTTP 边学边记</title>
+    <link href="http://yoursite.com/2019/06/30/HTTP-%E8%BE%B9%E5%AD%A6%E8%BE%B9%E8%AE%B0/"/>
+    <id>http://yoursite.com/2019/06/30/HTTP-边学边记/</id>
+    <published>2019-06-30T10:29:17.000Z</published>
+    <updated>2019-06-30T10:29:19.520Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="HTTP-边学边记"><a href="#HTTP-边学边记" class="headerlink" title="HTTP 边学边记"></a>HTTP 边学边记</h4><h5 id="1-HTTP-HEADER"><a href="#1-HTTP-HEADER" class="headerlink" title="1. HTTP HEADER"></a>1. HTTP HEADER</h5><h6 id="（1）Upgrade-Insecure-Requests"><a href="#（1）Upgrade-Insecure-Requests" class="headerlink" title="（1）Upgrade-Insecure-Requests"></a>（1）Upgrade-Insecure-Requests</h6><p>在Chrome浏览器去请求HTTPS会看到这个头标志。在资料：<a href="https://stackoverflow.com/questions/31950470/what-is-the-upgrade-insecure-requests-http-header" target="_blank" rel="noopener">https://stackoverflow.com/questions/31950470/what-is-the-upgrade-insecure-requests-http-header</a>中描述，这是一个与安全相关的标示，是由W3标准提出的，解释如下：</p><blockquote><p>When a server encounters this preference in an HTTP request’s headers, it SHOULD redirect the user to a potentially secure representation of the resource being requested.</p><p>When a server encounters this preference in an HTTPS request’s headers, it SHOULD include a Strict-Transport-Security header in the response if the request’s host is HSTS-safe or conditionally HSTS-safe [RFC6797].</p></blockquote><p>服务端在HTTPS中请求头中遇到这个标识时，服务端需要返回一个<strong>Strict-Transport-Security</strong>头标识在<strong>Response</strong>响应包中。</p><h5 id="2-HTTP-Cache"><a href="#2-HTTP-Cache" class="headerlink" title="2.HTTP Cache"></a>2.HTTP Cache</h5>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;HTTP-边学边记&quot;&gt;&lt;a href=&quot;#HTTP-边学边记&quot; class=&quot;headerlink&quot; title=&quot;HTTP 边学边记&quot;&gt;&lt;/a&gt;HTTP 边学边记&lt;/h4&gt;&lt;h5 id=&quot;1-HTTP-HEADER&quot;&gt;&lt;a href=&quot;#1-HTTP-HEADE
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>PLSQL 包的使用</title>
